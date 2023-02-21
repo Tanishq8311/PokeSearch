@@ -1,0 +1,85 @@
+.App{
+  display: flex;
+  justify-content: center;
+  font-family:cursive;
+  font-size: 25px;
+  flex-direction: column;
+  background-color: #ff5f5a;
+}
+
+body{
+  margin: 0%;
+  padding:0%;
+  background-color: #ff5f5a;
+}
+
+.TitleSection{
+  display: flex;
+  background-color: #ff5f5a;
+  width: 100%;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.TitleSection input{
+  width: 180px;
+  height: 25px;
+  border-radius: 10px;
+  border: 4px solid #3f61a2;
+  background-color: #f9db36;
+  color:#3f61a2;
+  font-size:18px;
+  padding-left: 8px;
+}
+
+.TitleSection button{
+  width: 100px;
+  height: 25px;
+  margin:20px;
+  border-radius: 10px;
+  background-color: #f9db36;
+  color:#3f61a2;
+  font-size:18px;
+  padding-left: 8px;
+  padding-bottom: 20px;
+}
+
+.TitleSection button:hover{
+  cursor: pointer;
+}
+
+.DisplaySection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin:auto;
+  width:500px;
+  background-color: #f9db36;
+  border:8px solid #3f61a2;
+  border-radius: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  position: relative;
+  box-shadow:-3px 6px 28px -3px #888888;
+
+  
+
+}
+h1{
+  text-transform: uppercase;
+}
+
+.DisplaySection h1,img,h3,h4{
+  margin:5px;
+}
+
+.DisplaySection img{
+  width:150px;
+  height:100%;
+  background-color:black;
+  border-radius: 10px;
+}
